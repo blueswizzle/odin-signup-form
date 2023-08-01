@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.image-sidebar{
+  background: url(resources/daniel-leone-main.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  position: relative;
+  width: 50vw;
+  min-width: 345px;
+  height: 100vh;
+  align-items: center;
+  color: white;
+}

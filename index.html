@@ -9,7 +9,54 @@
 </head>
 <body>
     
+    <div class="main-container">
+        <div class="image-sidebar">
+            <div class="logo">
 
+            </div>
+        </div>
+
+        <div class="signup-sidebar">
+            <div class="introduction">
+                <p>This is not a real online service!</p>
+                <p>You know you need something like this in your life to help you fulfill your dreams. Sign up now to get started!</p>
+            </div>
+
+            <div class="signup-form">
+                <form id="signup">
+                    <label for="firstName">First Name
+                        <input type="text" id="firstName" name="firstName" required>
+                        <div class="error" id="firstName-error"></div>
+                    </label>
+                    
+                    <label for="lastName">Last Name
+                        <input type="text" id="lastName" name="lastName" required>
+                        <div class="error" id="lastName-error"></div>
+                    </label>
+
+                    <label for="email"> Email
+                        <input type="email" name="email" id="email" required>
+                        <div class="error" id="email-error"></div>
+                    </label>
+
+                    <label for="phoneNumber"> Phone Number
+                        <input type="tel" name="phoneNumber" id="phoneNumber" required pattern='[0-9]{10}'>
+                        <div id='phone-error' class='error'></div>
+                    </label>
+
+                    <label for="password">Password
+                        <input type="password" id="password" name="password" required>
+                        <div id='password-error' class='error'></div>
+                      </label>
+                      <label for="confirmPassword">Confirm Password
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                        <div id='confirmPassword-error' class='error'></div>
+                      </label>
+                </form>
+            </div>
+        </div>
+
+    </div>
 
 
 
