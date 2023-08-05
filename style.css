@@ -141,7 +141,11 @@ a:link, a:visited{
   text-decoration: none;
 }
 
-@media screen  and (max-width: 900px) {
+#fill-error{
+  color: red;
+}
+
+@media screen  and (max-width: 995px) {
    .main-container{
     flex-direction: column;
    }
