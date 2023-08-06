@@ -145,6 +145,10 @@ a:link, a:visited{
   color: red;
 }
 
+
+.error{
+  color: red;
+}
 @media screen  and (max-width: 995px) {
    .main-container{
     flex-direction: column;
@@ -156,8 +160,15 @@ a:link, a:visited{
    .create-account > div{
     font-size: 0.95rem;
   }
+  .create-account{
+    margin-left: 0;
+  }
   button{
     padding: .6rem 1.1rem;
     font-size: 1rem;
+  }
+  .signup-sidebar{
+    align-items: center;
+    
   }
 }
